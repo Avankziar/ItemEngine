@@ -1,0 +1,21 @@
+#1:
+#  name: 'itemname'
+#  material: 'ARROW'
+#  isunbreakable: 'false'
+#  lore:
+#  - §cEin tolles Schwert
+#  - §aOder etwa nicht?
+#  itemflag: => https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/ItemFlag.html
+#  - HIDE_ATTRIBUTES
+#  - HIDE_DESTROYS
+#  enchantments: => https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
+#  - ARROW_DAMAGE;1 => 0 means 1, 1 means 2 etc.
+#  - ARROW_FIRE;0
+#  - ARROW_INFINITE;0
+#  attributes: =>
+#  - GENERIC_ARMOR;10.0
+#  - GENERIC_ARMOR_TOUGHNESS;2.0
+  
+  
+  
+  

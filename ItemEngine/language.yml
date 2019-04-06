@@ -1,0 +1,16 @@
+#French and Spanish are not implementet. BUT you can if you will! And more, you can submit your translation, and I will added in my code.
+
+IE:
+  german:
+    msg01: '&cDafuer hast du keine Rechte!'
+    msg02: '&cUnvalide Argumente => &6%cmd%'
+    msg03: '&cEs wird MySQL benoetigt! => config.yml Mysql Status auf on'
+    msg04: '&cEin bestimmtes Argument ist keine Zahl!'
+    CMD_ie:
+      info:
+      give:
+      reload:
+      
+  english:
+  french:
+  spanish:

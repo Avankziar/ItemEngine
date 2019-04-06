@@ -1,0 +1,8 @@
+name: ItemEnginge
+main: de.avankziar.itemengine.main.IEMain
+version: 1.0.0
+author: Avankziar
+description: A ItemEngine Plugin
+commands:
+  ie:
+    description: A tsc Command

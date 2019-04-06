@@ -1,0 +1,28 @@
+#Hallo und danke für das Lesen dieser Datei, da einiges zu beachten ist.
+#Erstmal für die items.yml. Zwar ist in dieser Datei ein Beispiel drin, aber man weiß ja nicht^^.
+#Falls ihr bestimmte dinge von den Items nicht braucht, einfach löschen oder nicht schreiben^^
+#Bspw.
+#1:
+#  name: 'itemname' => Name des Items. Unterstützt Farben mit §, bspw. &c für rot.
+#  material: 'ARROW' => Material des Items siehe https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+#  isunbreakable: 'false' => ist das Items unzerstörbar?
+#  lore: => Die Beschreibung für das Item. Man kann zeilen hinzufügen! Unterstützt Farben mit §, bspw. &c für rot.
+#  - §cEin tolles Schwert
+#  - §aOder etwa nicht?
+#  itemflag: => versteckt bestimmte ding. Falls nicht gewollt einfach löschen. Sonst https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/ItemFlag.html
+#  - HIDE_ATTRIBUTES
+#  - HIDE_DESTROYS
+#  enchantments: => Die Verzauberungen sowie deren Stufe. https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
+#  - ARROW_DAMAGE;1 => 0 heißt 1, 1 heißt 2 etc.
+#  - ARROW_FIRE;0
+#  - ARROW_INFINITE;0
+#  attributes: => Dies beschreibt bspw. die Rüstungsstärke, den Angriffsschaden oder ähnliches. Die Zahl immer mit Punkt angeben! Siehe https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/attribute/Attribute.html
+#  - GENERIC_ARMOR;10.0 => kann ein negativer Wert sein und wird immer addiert (oder subtrahiert) von dem normalen Itemwert. Also sieht wiki für normale Werte
+#  - GENERIC_ARMOR_TOUGHNESS;2.0 => bedenke 1 Rüstungspunkt sind bspw. als zahl 2.0! Und ja, auch waffen oder normale rüstungen können rüstung geben xD
+# Aber nur wenn sie ausgerüstet sind.
+#
+#
+#Nun gibt es ein paar Replacer(Für den Namen und die Lore), diese sind immer ein Wort, welches in Caps, aka in Großbuchstaben geschrieben. Bsp. PLAYER
+#hier eine Liste mit Replacer:
+#PLAYERNAME für den Spielernamen | DATUM das aktuelle datum in dd:MM:yyyy | TIME für die Zeit in HH:mm:ss
+#
